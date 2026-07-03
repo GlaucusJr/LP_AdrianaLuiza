@@ -99,7 +99,7 @@ const COMO_FUNCIONA = [
    5. DIFERENCIAIS
 ------------------------------------------------------------------------ */
 const DIFERENCIAIS = [
-  { icone: "sigilo",        titulo: "Sigilo e ética profissional", descricao: "Total confidencialidade em todas as sessões, presenciais ou online." },
+  { icone: "sigilo",        titulo: "Sigilo e ética profissional", descricao: "Total confidencialidade em todas as sessões." },
   { icone: "experiencia",   titulo: "Especializações variadas",    descricao: "Traumas familiares e de casal, transtornos de personalidade, ansiedade, depressão e luto." },
   { icone: "online",        titulo: "Atendimento online",          descricao: "Sessões por videochamada com a mesma qualidade do presencial." },
   { icone: "personalizado", titulo: "Atendimento humanizado",      descricao: "Escuta acolhedora, sem julgamentos, respeitando a história de cada pessoa." },
