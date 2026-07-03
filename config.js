@@ -7,7 +7,7 @@ const CONFIG = {
   nome: "Adriana Luiza Ferreira",
   genero: "feminino",
   crp: "CRP 06/123456",
-  especialidade: "Psicanalista clínica",
+  especialidade: "Psicanálise clínica",
   cidade: "Minas Gerais",
   estado: "MG",
 
