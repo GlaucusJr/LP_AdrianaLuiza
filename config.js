@@ -81,7 +81,7 @@ const PROBLEMAS = [
 const BENEFICIOS = [
   { icone: "escuta",        titulo: "Atendimento humanizado",   descricao: "Um espaço ético e sigiloso, sem julgamentos, para você se expressar livremente." },
   { icone: "evidencia",     titulo: "Cuidado que vai à raiz",    descricao: "Um olhar psicanalítico que busca compreender a origem do sofrimento, não só os sintomas." },
-  { icone: "flexibilidade", titulo: "Horários flexíveis",        descricao: "Sessões presenciais ou online, encaixadas na sua rotina." },
+  { icone: "flexibilidade", titulo: "Horários flexíveis",        descricao: "Sessões online que se encaixam na sua rotina." },
   { icone: "acompanhamento", titulo: "Acompanhamento contínuo",  descricao: "Um processo respeitado no tempo de cada pessoa, com evolução acompanhada de perto." },
 ];
 
