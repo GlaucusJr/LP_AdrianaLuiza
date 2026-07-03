@@ -1,0 +1,22 @@
+{
+  "name": "Adriana Luiza Ferreira | Psicanalista",
+  "short_name": "Psicanalista",
+  "description": "Atendimento psicanalista presencial e online.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8EBE0",
+  "theme_color": "#8B7461",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "assets/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
