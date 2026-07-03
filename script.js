@@ -260,13 +260,13 @@ function renderFooter() {
 
 /* --------------------------------- SEO: META TAGS + JSON-LD --------------------------------- */
 function renderSEO() {
-  document.title = `${CONFIG.nome} | Psicólog${generoTexto('o', 'a')} em ${CONFIG.cidade} — ${CONFIG.especialidade}`;
+  document.title = `${CONFIG.nome} | Psicanalista em ${CONFIG.cidade} — ${CONFIG.especialidade}`;
 
-  const desc = `${CONFIG.nome}, ${CONFIG.especialidade}, ${CONFIG.crp}. Atendimento psicológico ${CONFIG.atendimentoPresencial ? 'presencial em ' + CONFIG.cidade + ' e ' : ''}online. Agende sua consulta.`;
+  const desc = `${CONFIG.nome}, ${CONFIG.especialidade}, ${CONFIG.crp}. Atendimento psicanalítico ${CONFIG.atendimentoPresencial ? 'presencial em ' + CONFIG.cidade + ' e ' : ''}online. Agende sua consulta.`;
 
   const metaMap = {
     'description': desc,
-    'keywords': `psicólogo em ${CONFIG.cidade}, psicoterapia online, terapia para ansiedade, terapia para depressão, atendimento psicológico, psicólogo ${CONFIG.crp}`,
+    'keywords': `psicanalista em ${CONFIG.cidade}, psicanálise online, terapia para ansiedade, terapia para depressão, atendimento psicanalítico, psicanalista ${CONFIG.crp}`,
     'author': CONFIG.nome,
     'robots': 'index, follow',
     'theme-color': CONFIG.corPrimaria,
