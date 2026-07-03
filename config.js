@@ -45,20 +45,20 @@ const CONFIG = {
 
   // Textos principais
   headline: "Um espaço seguro para você reencontrar sua história e recomeçar",
-  subheadline: "Psicanálise clínica para mulheres e casais que buscam compreender suas dores, elaborar traumas e reconstruir vínculos mais saudáveis, atendimento presencial em Nova Serrana/MG ou online para todo o Brasil.",
+  subheadline: "Psicanálise clínica para mulheres e casais que buscam compreender suas dores, elaborar traumas e reconstruir vínculos mais saudáveis, atendimento online para todo o Brasil.",
 
   sobre: "Sou formada em Psicanálise Clínica por dois institutos, com especializações em transtorno de personalidade, terapia de casais, traumas familiares, luto, ansiedade e depressão. Acredito que muitas dores não começam no presente, elas carregam marcas de experiências, perdas, rejeições e silêncios guardados por muito tempo. Meu compromisso vai além de aliviar sintomas: é caminhar ao lado de quem chega cansado, ferido ou perdido, ajudando a compreender a origem do sofrimento e a construir um caminho real de transformação.",
   missao: "Oferecer um lugar seguro, onde cada pessoa possa ser acolhida sem medo de julgamentos, fortalecendo sua identidade e aprendendo a estabelecer limites saudáveis para viver de forma mais leve e consciente.",
   valores: "Acolhimento sem julgamentos, escuta ética e sigilosa, respeito ao tempo de cada processo e compromisso com a transformação, não apenas o alívio dos sintomas.",
 
-  anosExperiencia: 2,
+  // anosExperiencia: 2,
   formacao: "Formação em Psicanálise Clínica por dois institutos, com especializações em transtorno de personalidade, terapia de casais, traumas familiares, luto, ansiedade e depressão.",
   abordagem: "Psicanálise Clínica",
 
   horarios: "Horários flexíveis — consulte disponibilidade pelo WhatsApp",
 
   atendimentoOnline: true,
-  atendimentoPresencial: true,
+  atendimentoPresencial: false,
 };
 
 /* ------------------------------------------------------------------------

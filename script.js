@@ -99,8 +99,7 @@ function renderHero() {
       <img src="${CONFIG.fotoPrincipal}" alt="Foto de ${CONFIG.nome}, ${CONFIG.especialidade}" width="640" height="800" loading="eager" fetchpriority="high">
     </div>
     <div class="hero-float-card" data-animate="fade-up">
-      <span class="num" id="counter-anos">0</span>
-      <span class="label">anos de experiência<br>ajudando pacientes</span>
+      <span class="label">Psicanalista Clínica<br>Com escuta, cura e propósito</span>
     </div>
   `;
 }
@@ -112,7 +111,8 @@ function renderAbout() {
 
   document.getElementById('about-text').innerHTML = `
     <div class="eyebrow">Sobre mim</div>
-    <h2>Cuidado psicológico dedicado ao seu bem-estar em ${CONFIG.cidade}</h2>
+    <h2>Cuidado psicológico dedicado ao seu bem-estar</h2>
+    <br>
     <p class="lead">${CONFIG.sobre}</p>
     <div class="about-blocks">
       <div class="about-block"><h3>Missão</h3><p>${CONFIG.missao}</p></div>
@@ -242,13 +242,6 @@ function renderFooter() {
           <li><span>${CONFIG.telefone}</span></li>
           <li><span>${CONFIG.horarios}</span></li>
         </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Localização</h4>
-        <p style="margin-bottom:14px;color:rgba(255,255,255,0.7);font-size:0.9rem;">${CONFIG.endereco}</p>
-        <div class="footer-map">
-          <iframe src="${CONFIG.googleMaps}" loading="lazy" title="Mapa do consultório de ${CONFIG.nome}" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
       </div>
     </div>
     <div class="footer-bottom">
