@@ -253,7 +253,7 @@ function renderFooter() {
 
 /* --------------------------------- SEO: META TAGS + JSON-LD --------------------------------- */
 function renderSEO() {
-  document.title = `${CONFIG.nome} | Psicanalista em ${CONFIG.cidade} — ${CONFIG.especialidade}`;
+  document.title = `${CONFIG.nome} | Psicanalista — ${CONFIG.especialidade}`;
 
   const desc = `${CONFIG.nome}, ${CONFIG.especialidade}, ${CONFIG.crp}. Atendimento psicanalítico ${CONFIG.atendimentoPresencial ? 'presencial em ' + CONFIG.cidade + ' e ' : ''}online. Agende sua consulta.`;
 
